@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+
+main{
+    width: 50;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+   }
+.red{
+    background-color: red;
+    width: 100%;
+    height: 50vh;
+    display: block;
+}
+.orange{
+    background-color: orange;
+    width: 100%;
+    height: 30vh;
+}
+.green{
+    background-color: green;
+    width: 100%;
+    height: 20vh;
+    flex-direction: column-reverse;
+}
+.blue{
+    background-color: blue;
+    width: 100%;
+}
+.blue1{
+    background-color: rgb(60, 60, 104);
+    width: 100%;
+}

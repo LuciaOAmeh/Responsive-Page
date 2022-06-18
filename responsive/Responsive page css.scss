@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+body{
+    background-image:
+}
+main {
+    width: 50;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    flex-direction: row;
+    background-color: rgba(197, 77, 40, 0.767);
+}
+h5{
+    color: aliceblue;
+    font-size: 20px;
+    background-color: blue;
+    width: 100%;
+    border-radius: 20px;
+}
+h1{
+    font-size: 50px;
+    color: aliceblue;
+}
+h4{
+    font-size: 20px;
+    color: aliceblue;
+}
+input{
+    border-radius: 10px;
+    width: 100%;
+}
+button{
+    background-color: green;
+    width: 100%;
+    border-radius: 10px;
+}
+.div2{
+    border-radius: 20px;
+    width: 200%;
+
+}

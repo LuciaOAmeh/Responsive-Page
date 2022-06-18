@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+body{
+    background-color: hsla(0, 0%, 100%, 0.75);
+}
+main{
+    width: 50;
+   margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    flex-direction: row;
+
+
+}
+.firstC{
+    background-color: hsl(31, 77%, 52%);
+    width: 100%;
+         background-image: url(https://www.shutterstock.com/search/sedan);
+}
+.secondC{
+    background-color: hsl(184, 100%, 22%);
+    width: 100%;
+}
+.thirdC{
+    background-color: hsl(179, 100%, 13%);
+    width: 100%;
+}
+.botton{
+    text-align: center;
+    border-radius: 310px;
+}
