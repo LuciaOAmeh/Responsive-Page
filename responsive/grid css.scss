@@ -1,41 +1,47 @@
 *{
     margin: 0;
     padding: 30px;
-    box-sizing: border-box;
     font-size: 15px;
 }
-
-
 main{
-    width: 50;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200vh;
+    text-align: center;
+    display: grid;
+    grid-template-areas: 
+    'a a a b'
+    'c c d d'
+    'c c e e'
+    ;
+    gap: 10px;
+  height: 50%;
    }
-.red{
-    background-color: red;
-    width: 100%;
-    height: 50vh;
-    display: block;
-}
+   main div{
+    text-align: center;
+    padding: 2em;
+    border-radius: 10px;
+   }
+    .red{
+    background-color: rgba(255, 68, 0, 0.912);
+    grid-area: a;
+    height: 70px;
+
+   }
 .orange{
-    background-color: orange;
-    width: 100%;
-    height: 30vh;
+   background-color: orange;
+   grid-area: b;
+   
 }
 .green{
-    background-color: green;
-    width: 100%;
-    height: 20vh;
-    flex-direction: column-reverse;
+    background-color: rgba(10, 152, 10, 0.775);
+    grid-area: c;
+    
 }
 .blue{
-    background-color: blue;
-    width: 100%;
+    background-color: rgba(0, 138, 163, 0.655);
+    grid-area: d;
+   
 }
 .blue1{
-    background-color: rgb(60, 60, 104);
-    width: 100%;
+    background-color: rgba(0, 138, 163, 0.655);
+    grid-area: e;
+    height: 70px;
 }
